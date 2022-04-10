@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <title>Portfolio Junior developer</title>
+  </head>
+
+  <body class="main dark-theme">
+    <header class="page-header">
+      <div class="wrapper">
+        <button class="theme-button" type="button">Change theme</button>
+        <a
+          class="header-email dark-header-email"
+          href="mailto:stanislauviarkhouski@gmail.com"
+          >stanislauviarkhouski@gmail.com</a
+        >
+        <a class="header-phone dark-header-phone" href="tel:+37529859974"
+          >+375(29)825-99-74</a
+        >
+      </div>
+    </header>
+
+    <section class="hero-image">
+      <div class="container">
+        <h1 class="heading">Stanislau Viarkhouski</h1>
+        <p>Junior developer</p>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container">
+        <h2 class="subheading">Let's get acquainted</h2>
+        <figure class="project-image">
+          <img
+            class="user-image"
+            src="images/content/user.jpeg"
+            width="536"
+            height="530"
+            alt="Developer foto"
+          />
+        </figure>
+        <h3>A few words about myself</h3>
+        <p>
+          <em>Ex-ingineer</em> of road and bridge construction. I strive to
+          learn new and interesting thing. I am good at learn new topics and
+          quite <em>modest</em>).
+        </p>
+        <h3>How can i help you</h3>
+        <p class="text-justify">
+          I hope, with my experience in construction, i can bring new ideas and
+          help in this hard business.
+        </p>
+        <div class="skills">
+          <h3>My skills</h3>
+          <dl class="skills-list">
+            <dt class="skill-html">HTML</dt>
+            <dd class="level dark-level">
+              <div class="line-level dark-line-level" style="width: 40%">
+                40%
+              </div>
+            </dd>
+            <dt class="skill-css">CSS</dt>
+            <dd class="level dark-level">
+              <div class="line-level dark-line-level" style="width: 30%">
+                30%
+              </div>
+            </dd>
+            <dt class="skill-java">Javascript</dt>
+            <dd class="level dark-level">
+              <div class="line-level dark-line-level" style="width: 30%">
+                30%
+              </div>
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </section>
+    <div class="tooltip">
+      <span class="tooltip-text"></span>
+      <button class="close-button" type="button"><span>Close</span></button>
+    </div>
+
+    <section class="portfolio">
+      <div class="container">
+        <h2 class="subheading">My works</h2>
+        <h3>Shop of home products</h3>
+        <figure class="project-image">
+          <img
+            src="images/content/project.jpg"
+            width="928"
+            height="536"
+            alt="Shop of home products"
+          />
+        </figure>
+        <a class="button-open" href="my-work/site/index.html" target="_blank"
+          >Open the page</a
+        >
+        <button
+          class="tooltip-button"
+          type="button"
+          data-tooltip-text="This site is as on example"
+          style="font-style: italic"
+        >
+          My first site (tooltip)
+        </button>
+      </div>
+    </section>
+
+    <footer class="page-footer dark-page-footer">
+      <div class="wrapper">
+        <a
+          class="footer-email dark-footer-email"
+          href="mailto:stanislauviarkhouski@gmail.com"
+          >stanislauviarkhouski@gmail.com</a
+        >
+        <a class="footer-phone dark-footer-phone" href="tel:+37529859974"
+          >+375(29)825-99-74</a
+        >
+      </div>
+    </footer>
+
+    <button class="up-button" type="button">
+      ↑
+      <span></span>
+    </button>
+
+    <script src="theme-script.js"></script>
+    <script src="tooltip-script.js"></script>
+    <script src="up-script.js"></script>
+  </body>
+</html>
